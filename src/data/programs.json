@@ -1,0 +1,73 @@
+{
+  "eyebrow": "Training Programs",
+  "heading": "Choose Your Path.",
+  "description": "Structured, results-driven programs with clear phases, weekly progression and full coaching support.",
+  "labels": {
+    "duration": "Duration",
+    "level": "Level",
+    "goal": "Goal",
+    "price": "From",
+    "cta": "Enquire About Program",
+    "ctaHref": "#contact"
+  },
+  "pricingNote": "Sample pricing for demonstration only.",
+  "items": [
+    {
+      "id": "fat-loss",
+      "title": "Fat Loss Program",
+      "duration": "12 Weeks",
+      "level": "Beginner to Intermediate",
+      "goal": "Fat reduction and fitness improvement.",
+      "description": "Burn fat, boost energy and build lasting habits through metabolic training and simple nutrition rules.",
+      "price": "LKR 45,000",
+      "image": {
+        "src": "/images/program-fat-loss.jpg",
+        "alt": "Athlete doing battle rope conditioning training"
+      },
+      "featured": false
+    },
+    {
+      "id": "muscle-building",
+      "title": "Muscle Building Program",
+      "duration": "16 Weeks",
+      "level": "Intermediate",
+      "goal": "Muscle growth and strength development.",
+      "description": "A periodised hypertrophy plan that maximises muscle gain with intelligent volume and recovery.",
+      "price": "LKR 60,000",
+      "image": {
+        "src": "/images/program-muscle.jpg",
+        "alt": "Muscular athlete training in the gym"
+      },
+      "featured": true,
+      "featuredLabel": "Most Popular"
+    },
+    {
+      "id": "strength",
+      "title": "Strength Training",
+      "duration": "8 Weeks",
+      "level": "All Levels",
+      "goal": "Improve strength and performance.",
+      "description": "Master the big lifts — squat, bench, deadlift — and add serious weight to the bar, safely.",
+      "price": "LKR 35,000",
+      "image": {
+        "src": "/images/program-strength.jpg",
+        "alt": "Lifter setting up a heavy barbell deadlift"
+      },
+      "featured": false
+    },
+    {
+      "id": "complete-transformation",
+      "title": "Complete Body Transformation",
+      "duration": "24 Weeks",
+      "level": "All Levels",
+      "goal": "Complete fitness and lifestyle transformation.",
+      "description": "The full system: training, nutrition, mindset and accountability for a total lifestyle overhaul.",
+      "price": "LKR 85,000",
+      "image": {
+        "src": "/images/program-transformation.jpg",
+        "alt": "Personal trainer coaching a client through push-ups"
+      },
+      "featured": false
+    }
+  ]
+}

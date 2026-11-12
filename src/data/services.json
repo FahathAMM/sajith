@@ -1,0 +1,51 @@
+{
+  "eyebrow": "Services",
+  "heading": "Coaching Built Around You.",
+  "description": "Whether you want to lose fat, build muscle or simply move better, every service is tailored to your starting point and goals.",
+  "ctaLabel": "Enquire Now",
+  "ctaHref": "#contact",
+  "items": [
+    {
+      "id": "personal-training",
+      "icon": "Dumbbell",
+      "title": "Personal Training",
+      "description": "1-on-1 sessions with full attention on your form, intensity and progress — every single rep.",
+      "benefits": ["Custom session plans", "Technique correction", "Progress tracking"]
+    },
+    {
+      "id": "weight-loss",
+      "icon": "Flame",
+      "title": "Weight Loss Coaching",
+      "description": "A sustainable fat-loss system combining smart training, daily habits and realistic nutrition.",
+      "benefits": ["Calorie-smart guidance", "Metabolic conditioning", "Weekly check-ins"]
+    },
+    {
+      "id": "muscle-building",
+      "icon": "BicepsFlexed",
+      "title": "Muscle Building",
+      "description": "Hypertrophy-focused programming that adds quality size through progressive overload done right.",
+      "benefits": ["Structured training splits", "Progressive overload", "Recovery planning"]
+    },
+    {
+      "id": "strength-conditioning",
+      "icon": "Zap",
+      "title": "Strength & Conditioning",
+      "description": "Get stronger, faster and more athletic with performance-driven compound training.",
+      "benefits": ["Compound lift mastery", "Power & mobility", "Athletic performance"]
+    },
+    {
+      "id": "online-coaching",
+      "icon": "Smartphone",
+      "title": "Online Fitness Coaching",
+      "description": "Expert coaching wherever you are — structured programs, video form reviews and accountability.",
+      "benefits": ["Train anywhere", "Video form feedback", "Direct messaging"]
+    },
+    {
+      "id": "nutrition",
+      "icon": "Salad",
+      "title": "Nutrition Guidance",
+      "description": "Practical, flexible eating strategies built around Sri Lankan food and your lifestyle.",
+      "benefits": ["Macro guidance", "Meal structure ideas", "Habit coaching"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Training Philosophy",
+  "headingLines": ["Discipline Builds", "What Motivation", "Starts."],
+  "accentLineIndex": 2,
+  "description": "Motivation gets you through the door. Discipline is what brings you back on the days you don't feel like it — and that's where every real transformation is built.",
+  "image": {
+    "src": "/images/philosophy-barbell.jpg",
+    "alt": "Hand gripping a loaded barbell in a dark gym"
+  },
+  "principles": [
+    {
+      "number": "01",
+      "icon": "Repeat",
+      "title": "Consistency",
+      "description": "Small, repeatable actions done every week beat perfect plans done once. We build routines you can actually keep."
+    },
+    {
+      "number": "02",
+      "icon": "Target",
+      "title": "Proper Technique",
+      "description": "Form first, load second. Clean movement protects your joints, targets the right muscles and unlocks long-term strength."
+    },
+    {
+      "number": "03",
+      "icon": "TrendingUp",
+      "title": "Sustainable Progress",
+      "description": "No crash diets or burnout. Measured, progressive overload and realistic nutrition for results that last for life."
+    }
+  ]
+}

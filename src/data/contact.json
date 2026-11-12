@@ -1,0 +1,50 @@
+{
+  "eyebrow": "Contact",
+  "heading": "Start Your Transformation Today.",
+  "description": "Ready to train? Send an inquiry or message on WhatsApp for a free consultation. Most messages are answered within 24 hours.",
+  "demoNote": "Sample contact details — replace with real information before launch.",
+  "whatsapp": {
+    "label": "Chat on WhatsApp",
+    "number": "94771234567",
+    "message": "Hi Sajith! I'm interested in personal training. Can we talk?"
+  },
+  "details": [
+    { "icon": "Phone", "label": "Phone", "value": "+94 77 123 4567", "href": "tel:+94771234567" },
+    { "icon": "Mail", "label": "Email", "value": "hello@sajith.fit", "href": "mailto:hello@sajith.fit" },
+    { "icon": "MapPin", "label": "Location", "value": "Colombo 07, Sri Lanka", "href": "https://maps.google.com/?q=Colombo+07+Sri+Lanka" },
+    { "icon": "Clock", "label": "Hours", "value": "Mon – Sat · 5:30 AM – 9:00 PM", "href": "" }
+  ],
+  "socials": [
+    { "icon": "Instagram", "label": "Instagram", "handle": "@sajith.fit", "href": "https://instagram.com/" },
+    { "icon": "Facebook", "label": "Facebook", "handle": "Sajith Fitness", "href": "https://facebook.com/" },
+    { "icon": "MessageCircle", "label": "WhatsApp", "handle": "+94 77 123 4567", "href": "https://wa.me/94771234567" }
+  ],
+  "form": {
+    "title": "Training Inquiry",
+    "subtitle": "Tell me about your goals and I'll get back to you.",
+    "fields": {
+      "name": { "label": "Full Name", "placeholder": "Your name" },
+      "email": { "label": "Email", "placeholder": "you@example.com" },
+      "phone": { "label": "Phone", "placeholder": "+94 7X XXX XXXX" },
+      "program": { "label": "Interested In", "placeholder": "Select a program" },
+      "goal": { "label": "Your Goal", "placeholder": "e.g. Lose 10 kg before my wedding in June…" }
+    },
+    "programOptions": ["Personal Training", "Fat Loss Program", "Muscle Building Program", "Strength Training", "Complete Body Transformation", "Online Fitness Coaching", "Not sure yet"],
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "programRequired": "Please choose a program.",
+      "goalRequired": "Tell me a little about your goal (min. 10 characters)."
+    },
+    "submitLabel": "Send Inquiry",
+    "submittingLabel": "Sending…",
+    "success": {
+      "title": "Inquiry Received!",
+      "message": "Thanks {name}! This is a demo form, so no message was actually sent. On the live site, Sajith will reply within 24 hours.",
+      "resetLabel": "Send another inquiry"
+    },
+    "privacyNote": "Demo form — no data is stored or sent."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "Personal Fitness Trainer",
+  "headingLines": ["Build Your", "Strongest", "Self."],
+  "accentLineIndex": 1,
+  "description": "Transform your body, strengthen your mindset, and build a healthier lifestyle with personalized fitness coaching.",
+  "primaryCta": { "label": "Start Your Transformation", "href": "#contact" },
+  "secondaryCta": { "label": "Explore Programs", "href": "#programs" },
+  "backgroundText": "SAJITH",
+  "images": [
+    {
+      "src": "/images/sajith/sajith-curl.jpg",
+      "alt": "Sajith performing a seated dumbbell curl in the gym",
+      "position": "50% 22%",
+      "caption": "Strength"
+    },
+    {
+      "src": "/images/sajith/sajith-row.jpg",
+      "alt": "Sajith performing a single-arm dumbbell row",
+      "position": "52% 30%",
+      "caption": "Discipline"
+    },
+    {
+      "src": "/images/sajith/sajith-portrait.jpg",
+      "alt": "Portrait of Sajith, personal fitness trainer, seated in the gym",
+      "position": "50% 20%",
+      "caption": "Coaching"
+    }
+  ],
+  "slideInterval": 5000,
+  "showPhotoLabel": "Show photo",
+  "nameplate": { "name": "Sajith", "title": "Certified Personal Trainer" },
+  "experienceBadge": { "value": "8+", "label": "Years Experience" },
+  "stats": [
+    { "value": "8+", "label": "Years Coaching" },
+    { "value": "250+", "label": "Clients Trained" },
+    { "value": "150+", "label": "Transformations" }
+  ],
+  "statsNote": "Sample figures",
+  "badge": { "title": "Now Accepting", "subtitle": "New clients · Colombo & Online" },
+  "scrollLabel": "Scroll"
+}

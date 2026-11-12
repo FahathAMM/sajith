@@ -1,0 +1,50 @@
+{
+  "brand": {
+    "name": "Sajith",
+    "logoText": "SAJITH",
+    "logoAccent": ".FIT",
+    "tagline": "Personal Fitness Trainer · Colombo"
+  },
+  "seo": {
+    "title": "Sajith | Personal Fitness Trainer in Colombo, Sri Lanka",
+    "titleTemplate": "%s | Sajith Fitness",
+    "description": "Sajith is a certified personal fitness trainer in Colombo, Sri Lanka, specialising in strength training, weight loss, muscle building and complete body transformation. Book a 1-on-1 or online coaching session today.",
+    "keywords": ["personal trainer Colombo", "fitness coach Sri Lanka", "weight loss coaching", "muscle building", "strength training", "online fitness coaching", "body transformation"],
+    "url": "https://sajith.fit",
+    "locale": "en_LK",
+    "ogImage": "/images/og-image.jpg",
+    "ogImageAlt": "Sajith – Personal Fitness Trainer"
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Programs", "href": "#programs" },
+    { "label": "Transformations", "href": "#transformations" },
+    { "label": "Testimonials", "href": "#testimonials" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "cta": { "label": "Book a Session", "href": "#contact" },
+  "theme": { "default": "dark", "toLight": "Switch to light theme", "toDark": "Switch to dark theme" },
+  "mobileMenu": {
+    "openLabel": "Open menu",
+    "closeLabel": "Close menu",
+    "footerNote": "Train with purpose. Results that last."
+  },
+  "demoNotice": {
+    "enabled": true,
+    "text": "Demo website — testimonials, transformations, certifications, statistics, pricing and contact details are sample placeholders.",
+    "dismissLabel": "Dismiss notice"
+  },
+  "marquee": ["Strength", "Discipline", "Fat Loss", "Muscle", "Mindset", "Conditioning", "Consistency", "Transformation"],
+  "footer": {
+    "description": "Certified personal fitness trainer helping people in Colombo and online build strength, lose fat, and create healthy habits that last.",
+    "quickLinksTitle": "Explore",
+    "contactTitle": "Get In Touch",
+    "socialTitle": "Follow The Journey",
+    "copyright": "Sajith Fitness. All rights reserved.",
+    "disclaimer": "Demo content: all client results, testimonials and figures shown are placeholders until verified.",
+    "backToTopLabel": "Back to top",
+    "bigText": "STRONGER EVERY DAY"
+  }
+}

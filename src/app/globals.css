@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #080808;
+  --color-coal: #101010;
+  --color-char: #171717;
+  --color-steel: #232323;
+  --color-line: #2a2a2a;
+  --color-mute: #8a8a8a;
+  --color-fog: #cfcfcf;
+  --color-lime: #c6ff00;
+  --color-lime-dim: #a8d900;
+
+  /* Semantic tokens (dark = default) */
+  --color-fg: #ffffff;       /* primary text / hairlines */
+  --color-accent: #c6ff00;   /* accent text, icons, borders */
+  --color-onlime: #080808;   /* text placed on lime fills — never changes */
+  --color-danger: #f87171;
+
+  --font-display: var(--font-anton), "Impact", "Arial Narrow", sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-scroll-dot: scroll-dot 1.8s ease-in-out infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes scroll-dot {
+    0% { transform: translateY(0); opacity: 0; }
+    30% { opacity: 1; }
+    100% { transform: translateY(14px); opacity: 0; }
+  }
+}
+
+/* Light theme: same layout and brand lime, inverted surfaces.
+   Accent text darkens to olive so it stays readable on light backgrounds. */
+[data-theme="light"] {
+  --color-ink: #f4f4ef;
+  --color-coal: #ebebe4;
+  --color-char: #ffffff;
+  --color-steel: #e0e0d8;
+  --color-line: #d4d4cc;
+  --color-mute: #5c5c56;
+  --color-fog: #2a2a26;
+  --color-fg: #0b0b0b;
+  --color-accent: #4d7a00;
+  --color-danger: #dc2626;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-ink);
+    color: var(--color-fg);
+    transition: background-color 0.4s ease, color 0.4s ease;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: var(--color-lime);
+    color: var(--color-onlime);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+  button { cursor: pointer; }
+}
+
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-x { padding-inline: 2rem; }
+  }
+  @media (min-width: 1280px) {
+    .container-x { padding-inline: 3rem; }
+  }
+
+  .section-y {
+    padding-block: 6rem;
+  }
+  @media (min-width: 1024px) {
+    .section-y { padding-block: 9rem; }
+  }
+
+  .heading-xl {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    line-height: 0.9;
+    letter-spacing: -0.01em;
+  }
+
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1px color-mix(in srgb, var(--color-fg) 8%, transparent);
+  }
+  .text-outline-lime {
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--color-accent);
+  }
+
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .grid-lines {
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--color-fg) 3.5%, transparent) 1px, transparent 1px);
+    background-size: calc(100% / 6) 100%;
+  }
+
+}
+
+/* Light theme: softer film grain */
+[data-theme="light"] .grain::after { opacity: 0.035; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "eyebrow": "About Sajith",
+  "heading": "More Than Just A Trainer.",
+  "image": {
+    "src": "/images/sajith/sajith-portrait.jpg",
+    "alt": "Portrait of Sajith, certified personal fitness trainer, in the gym"
+  },
+  "secondaryImage": {
+    "src": "/images/about-session.jpg",
+    "alt": "Trainer spotting a client during a bench press session"
+  },
+  "experienceBadge": { "value": "8+", "label": "Years of Coaching" },
+  "profile": [
+    { "label": "Name", "value": "Sajith" },
+    { "label": "Profession", "value": "Certified Personal Fitness Trainer" },
+    { "label": "Experience", "value": "8+ Years" },
+    { "label": "Location", "value": "Colombo, Sri Lanka" }
+  ],
+  "specializationsTitle": "Specialization",
+  "specializations": ["Strength Training", "Weight Loss", "Muscle Building", "Body Transformation"],
+  "description": "I'm passionate about helping people become stronger, healthier, and more confident. My coaching approach combines structured training, realistic nutrition guidance, and consistent motivation to help every client achieve sustainable results.",
+  "philosophyTitle": "My Approach",
+  "philosophy": "No crash diets. No ego lifting. Every plan is built around your body, your schedule and your goals — then progressed week by week with feedback and accountability until the results speak for themselves.",
+  "stats": [
+    { "value": 8, "suffix": "+", "label": "Years Experience" },
+    { "value": 250, "suffix": "+", "label": "Clients Coached" },
+    { "value": 12, "suffix": "", "label": "Programs Designed" }
+  ],
+  "certificationsTitle": "Certifications",
+  "certificationsNote": "Sample certifications — replace with verified credentials.",
+  "certifications": [
+    { "name": "Certified Personal Trainer (CPT)", "issuer": "Sample Fitness Academy", "year": "2017" },
+    { "name": "Strength & Conditioning Specialist", "issuer": "Sample Institute of Sport", "year": "2019" },
+    { "name": "Sports Nutrition Coach", "issuer": "Sample Nutrition Council", "year": "2021" },
+    { "name": "First Aid & CPR Certified", "issuer": "Sample First Aid Programme", "year": "2024" }
+  ],
+  "cta": { "label": "Train With Sajith", "href": "#contact" }
+}

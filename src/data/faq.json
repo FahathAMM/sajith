@@ -1,0 +1,28 @@
+{
+  "eyebrow": "FAQ",
+  "heading": "Questions, Answered.",
+  "description": "Everything you need to know before your first session. Still unsure? Send a message — happy to help.",
+  "cta": { "label": "Ask a Question", "href": "#contact" },
+  "items": [
+    {
+      "question": "Do I need previous gym experience?",
+      "answer": "Not at all. Every program starts with an assessment of your current fitness, mobility and goals. You'll learn each movement step by step, and the intensity is matched to where you are today."
+    },
+    {
+      "question": "Can beginners join your programs?",
+      "answer": "Yes. The Fat Loss Program, Strength Training and Complete Body Transformation are all suitable for beginners. Training is scaled so you progress safely and build confidence from week one."
+    },
+    {
+      "question": "Do you offer online coaching?",
+      "answer": "Yes. Online coaching includes a personalised training plan, video form reviews, nutrition guidance and weekly check-ins — ideal if you live outside Colombo or travel often."
+    },
+    {
+      "question": "Do you provide nutrition plans?",
+      "answer": "You'll receive practical nutrition guidance built around your goals, preferences and local food — including calorie and protein targets and simple meal structures. For medical dietary needs, please also consult a registered dietitian."
+    },
+    {
+      "question": "How can I book a personal training session?",
+      "answer": "Fill in the inquiry form below, send a WhatsApp message or call directly. We'll schedule a free consultation to discuss your goals and pick the right program for you."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Testimonials",
+  "heading": "What Clients Say.",
+  "description": "Feedback from people who committed to the process.",
+  "demoLabel": "Placeholder Testimonials",
+  "demoNote": "These testimonials are sample placeholders for demonstration and do not represent real clients.",
+  "ratingLabel": "Rated {rating} out of 5",
+  "items": [
+    {
+      "id": "r1",
+      "name": "Amaya Perera",
+      "program": "Fat Loss Program",
+      "rating": 5,
+      "image": { "src": "/images/avatar-1.jpg", "alt": "Placeholder profile photo of Amaya" },
+      "feedback": "Sajith made training feel achievable from day one. The plan fit my work schedule and for the first time I actually stuck with it long enough to see real change."
+    },
+    {
+      "id": "r2",
+      "name": "Ruwan Silva",
+      "program": "Muscle Building Program",
+      "rating": 5,
+      "image": { "src": "/images/avatar-2.jpg", "alt": "Placeholder profile photo of Ruwan" },
+      "feedback": "Every session had a purpose. My lifts went up every few weeks and the technique coaching completely fixed my shoulder pain on bench."
+    },
+    {
+      "id": "r3",
+      "name": "Tharushi Fernando",
+      "program": "Online Fitness Coaching",
+      "rating": 5,
+      "image": { "src": "/images/avatar-3.jpg", "alt": "Placeholder profile photo of Tharushi" },
+      "feedback": "I live outside Colombo, so online coaching was perfect. Quick video feedback and weekly check-ins kept me accountable the whole way."
+    },
+    {
+      "id": "r4",
+      "name": "Chamath Jayasuriya",
+      "program": "Complete Body Transformation",
+      "rating": 5,
+      "image": { "src": "/images/avatar-4.jpg", "alt": "Placeholder profile photo of Chamath" },
+      "feedback": "Not just a trainer — a coach who genuinely cares. Six months in, I've changed how I eat, sleep and train. Best investment I've made."
+    }
+  ]
+}

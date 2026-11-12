@@ -1,0 +1,11 @@
+{
+  "eyebrow": "By The Numbers",
+  "heading": "Results That Add Up.",
+  "note": "Sample statistics for demonstration purposes.",
+  "items": [
+    { "value": 8, "suffix": "+", "label": "Years Experience" },
+    { "value": 250, "suffix": "+", "label": "Clients Trained" },
+    { "value": 150, "suffix": "+", "label": "Transformations" },
+    { "value": 95, "suffix": "%", "label": "Client Satisfaction" }
+  ]
+}

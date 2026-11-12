@@ -1,0 +1,47 @@
+{
+  "eyebrow": "Transformations",
+  "heading": "Real Work. Real Change.",
+  "description": "Drag the slider to compare. Every transformation is built on consistency, technique and sustainable progress.",
+  "demoLabel": "Demo Content",
+  "demoNote": "These are illustrative demo profiles using stock photography of different people. They will be replaced with real client photos and verified results once provided.",
+  "labels": {
+    "before": "Before",
+    "after": "After",
+    "duration": "Duration",
+    "change": "Weight Change",
+    "program": "Program",
+    "sliderAria": "Drag to compare before and after images"
+  },
+  "items": [
+    {
+      "id": "t1",
+      "name": "Kasun P.",
+      "program": "Fat Loss Program",
+      "duration": "12 Weeks",
+      "weightChange": "-14 kg",
+      "story": "Went from struggling with a flight of stairs to running 5K — while dropping 14 kg with a plan that fit around office hours.",
+      "before": { "src": "/images/transform-1-before.jpg", "alt": "Demo before photo – client at the start of the program" },
+      "after": { "src": "/images/transform-1-after.jpg", "alt": "Demo after photo – client after 12 weeks" }
+    },
+    {
+      "id": "t2",
+      "name": "Nadeesha R.",
+      "program": "Complete Body Transformation",
+      "duration": "24 Weeks",
+      "weightChange": "-9 kg",
+      "story": "Lost 9 kg, gained real strength and finally feels confident in the gym — deadlifting her bodyweight for the first time.",
+      "before": { "src": "/images/transform-2-before.jpg", "alt": "Demo before photo – client at the start of the program" },
+      "after": { "src": "/images/transform-2-after.jpg", "alt": "Demo after photo – client after 24 weeks" }
+    },
+    {
+      "id": "t3",
+      "name": "Ishara W.",
+      "program": "Muscle Building Program",
+      "duration": "16 Weeks",
+      "weightChange": "+4 kg",
+      "story": "Always skinny and tired, Ishara added 4 kg of lean muscle with structured hypertrophy training and a simple high-protein meal plan.",
+      "before": { "src": "/images/transform-3-before.jpg", "alt": "Demo before photo – client at the start of the program" },
+      "after": { "src": "/images/transform-3-after.jpg", "alt": "Demo after photo – client after 16 weeks" }
+    }
+  ]
+}
